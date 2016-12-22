@@ -17,7 +17,7 @@ parts:
     plugin: autotools
     source: https://github.com/strukturag/spreed-webrtc.git
     source-type: git
-    source-branch: release-0.30
+    source-branch: release-0.29
     build-packages: [golang-go, nodejs]
 
   # Spreed.ME Nextcloud app
@@ -26,7 +26,7 @@ parts:
     plugin: dump
     source: https://github.com/strukturag/nextcloud-spreedme.git
     source-type: git
-    source-branch: release-0.3.5
+    source-branch: release-0.3
     filesets:
       extra:
         - extra/*
